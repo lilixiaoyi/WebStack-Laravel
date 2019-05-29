@@ -41,8 +41,9 @@ $ cp .env.example .env
 ```shell
 CREATE SCHEMA `homenav` DEFAULT CHARACTER SET utf8mb4 ;
 ```
+```
 ...
-DB_DATABASE=database
+DB_DATABASE=homenav
 DB_USERNAME=username
 DB_PASSWORD=password
 ...
