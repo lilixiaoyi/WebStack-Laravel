@@ -14,7 +14,7 @@
 git clone https://github.com/hui-ho/WebStack-Laravel.git
 ```
 
-该项目基于php运行，因此需要配置php基础环境，可以使用Apache+PHP。
+该项目基于php运行，因此需要配置php基础环境，可以使用Apache+PHP+MySQL。
 
 此外需要安装composer，下面语句会下载一个composer文件
 ```shell
@@ -37,6 +37,10 @@ php composer.phar install
 $ cp .env.example .env
 ```
 
+```
+新建一个mysql的数据库
+```shell
+CREATE SCHEMA `homenav` DEFAULT CHARACTER SET utf8mb4 ;
 ```
 ...
 DB_DATABASE=database
