@@ -37,7 +37,6 @@ php composer.phar install
 $ cp .env.example .env
 ```
 
-```
 新建一个mysql的数据库
 ```shell
 CREATE SCHEMA `homenav` DEFAULT CHARACTER SET utf8mb4 ;
