@@ -14,11 +14,22 @@
 git clone https://github.com/hui-ho/WebStack-Laravel.git
 ```
 
+该项目基于php运行，因此需要配置php基础环境，可以使用Apache+PHP。
+
+此外需要安装composer，下面语句会下载一个composer文件
+
+curl -sS https://getcomposer.org/installer | php
+
+
 安装依赖：
 
 ```shell
 $ composer install
 ```
+如果上面无法执行，建议使用下面命令替代：
+
+php composer.phar install
+
 
 编辑配置：
 
